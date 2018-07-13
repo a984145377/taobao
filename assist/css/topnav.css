@@ -1,0 +1,244 @@
+*{
+    margin:0;
+    padding:0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    color: #202020;
+}
+body{
+    font-size: 12px;
+    font-family: 宋体;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+input{outline:none}
+.topNav{
+    width: 100%;
+    height: 30px;
+    background-color: #eeefef;
+    z-index: 1000;
+}
+.width{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #1b1b1b;
+}
+.left{
+    float: left;
+    width: 300px;
+}
+.topNavBox1 {
+    width: 80px;
+    float: left;
+}
+.topNavBox1 p{
+    line-height: 30px;
+    margin-left: 5px;
+    display: inline-block;
+}
+.topNavBox2 {
+    width: 220px;
+    float: left;
+}
+.topNavBox2 a{
+    line-height: 30px;
+}
+.topNavBox2 a:first-child{
+    margin-left: 5px;
+    float: left;
+    color: #f22e00;
+}
+.topNavBox2 a:nth-child(2){
+    margin-left: 10px;
+    float: left;
+    color: #6C6C6C;
+}
+.topNavBox2 a:nth-child(2):hover{
+    color: #f22e00;
+}
+.topNavBox2 a:last-child{
+    float: right;
+    color: #6C6C6C;
+    margin-right: 10px;
+}
+.topNavBox2 a:last-child:hover{
+    color: #f22e00;
+}
+.right{
+    float: right;
+    width: 600px;
+}
+.topNavBox3{
+    width: 328px;
+    float: left;
+}
+.topNavBox3 div{
+    width: 75px;
+    line-height: 30px;
+    float: left;
+    margin-left: 3px;
+}
+.topNavBox3 p{
+    float: left;
+    margin-left: 5px;
+}
+.topNavBox3 i{
+    float: left;
+    margin-left: 3px;
+}
+.topNavBox3 .cart,.topNavBox3 .collect{
+    width: 82px;
+}
+.topNavBox3 .cart .icon-cart{
+    margin-right: 2px;
+    margin-top: -1px;
+}
+.topNavBox3 .icon-shoucangjia{
+    font-size: 16px;
+}
+.topNavBox3 .collect p{
+    margin-left: 3px;
+}
+.cut{
+    width: 1px;
+    height: 14px;
+    background-color: #a6a6a6;;
+    float: left;
+    margin-top: 8px;
+}
+.topNavBox4{
+    width: 270px;
+    float: right;
+}
+.topNavBox4 div{
+    float: left;
+    width: 87px;
+    margin-left: 1px;
+}
+.topNavBox4 div i,.topNavBox4 div p{
+    float: left;
+    line-height: 30px;
+}
+.topNavBox4 div i{
+    margin-left: 3px;
+}
+.topNavBox4 .seller p{
+    margin-left: 12px;
+}
+.topNavBox4 .contact p{
+    margin-left: 12px;
+}
+.topNavBox4 .top-nav-menu{
+    width: 90px;
+}
+.topNavBox4 .top-nav-menu .icon-daohang{
+    margin-right: 5px;
+}
+.country {
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    z-index: 1001;
+    position: absolute;
+    top: 30px;
+    overflow: auto;
+}
+
+.country p {
+    cursor: pointer;
+    font-size: 13px;
+    height: 22px;
+    padding-top: 3px;
+    padding-left: 6px;
+}
+
+.countryListTop {
+    margin-top: 6px;
+}
+.right .my-tb-drop{
+    background-color: white;
+    z-index:1001;
+    position: absolute;
+    top: 30px;
+    height: 56px;
+    width: 77px;
+    border:1px solid #f5f5f5;
+    border-top:0;
+}
+.my-tb-drop div{
+    width: 77px;
+    height: 40px;
+    margin-top: 10px;
+}
+.right .my-tb-drop p{
+    height: 20px;
+    width: 77px;
+    margin-top: 6px;
+    cursor:pointer;
+    color: #6C6C6C;
+    text-align: center;
+    line-height: 20px;
+}
+.right .collect-drop{
+    position: absolute;
+    width:70px;
+    top:30px;
+    border: 1px solid #f5f5f5;
+    border-top:0;
+    margin-left:0
+}
+.right .collect-drop p{
+    width: 70px;
+    color: #6C6C6C;
+    background-color: white;
+    margin-left: 0px;
+    text-align: center;
+    cursor:pointer
+}
+.right .collect-drop p:first-child{
+    margin-top: 4px;
+}
+.right .seller-drop{
+    height: 220px;
+    width: 85px;
+    position: absolute;
+    top: 30px;
+    border:1px solid #eeefef;
+    border-top:0;
+    background-color:white;
+    z-index: 1001;
+}
+.topNavBox4 .seller-drop p{
+    text-align: center;
+    line-height: 30px;
+    width: 85px;
+    cursor:pointer;
+}
+.topNavBox4 .seller-drop p:first-child{
+    margin-top: 10px;
+}
+.topNavBox4 .contact-drop{
+    position: absolute;
+    z-index:1001;
+    border:1px solid #eeefef;
+    border-top:0;
+    background-color:white;
+    top: 30px;
+    width: 74px;
+    height: 70px;
+    margin-left: 0px;
+}
+.topNavBox4 .contact-drop p{
+    margin-left: 0px;
+    width: 74px;
+    text-align: center;
+    cursor: pointer;
+}
+.topNavBox4 .contact-drop p:first-child{
+    margin-top: 9px;
+}
